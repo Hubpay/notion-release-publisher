@@ -28,7 +28,8 @@ async function updateNotionDatabase() {
 
     core.debug(`Notion database updated successfully:${response}`)
   } catch (error) {
-    core.error('Error updating Notion database:', error)
+    core.error('Error updating Notion database:')
+    core.error(error)
   }
 }
 
