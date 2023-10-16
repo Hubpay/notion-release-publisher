@@ -1,8 +1,7 @@
-name: 'The name of your action here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
+name: 'Notion release publisher'
+description: 'Publishes releases to notion'
+author: 'Hubpay'
 
-# Define your inputs here.
 inputs:
   notion-secret:
     description: 'Secret for accessing Notion API'
@@ -10,9 +9,6 @@ inputs:
   notion-database:
     description: 'Release database'
     required: true
-
-outputs:
-
 
 runs:
   using: node20
